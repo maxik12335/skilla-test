@@ -1,0 +1,38 @@
+.sidebar {
+  background-color:#091336;
+  padding-top: 20px;
+  min-width: 240px;
+}
+
+.sidebar__button {
+  background: #005FF8;
+  border-radius: 4px;
+  padding: 14px 20px;
+  width: 200px;
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sidebar__img {
+  display: block;
+  height: 24px;
+}
+
+.mb32 {
+  margin-bottom: 32px;
+}
+
+.ml17 {
+  margin-left: 17px;
+}
+
+.ml33 {
+  margin-left: 33px;
+}

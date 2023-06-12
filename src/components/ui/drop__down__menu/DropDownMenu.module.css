@@ -1,0 +1,35 @@
+.select {
+  width: fit-content;
+  background: #FFFFFF;
+  border: 1px solid #EAF0FA;
+  box-shadow: 0px 0px 26px rgba(233, 237, 243, 0.8);
+  border-radius: 4px;
+  position: absolute;
+  right: 0;
+  top: 30px;
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.option {
+  height: 48px;
+  color: #899CB1;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+
+.option__active {
+  color: #002CFB;
+}
+
+.option:hover {
+  background-color: rgb(0 44 251 / 13%);
+  color: #122945;
+}

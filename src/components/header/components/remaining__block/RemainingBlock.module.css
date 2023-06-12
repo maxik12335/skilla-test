@@ -1,0 +1,37 @@
+.remaining__block {
+  display: flex;
+  align-items: center;
+}
+
+.search {
+  display: block;
+  width: 16px;
+  height: 16px;
+  margin-right: 64px;
+}
+
+.people__name {
+  color: #899CB1;
+  font-size: 15px;
+  font-weight: 400;
+  margin-right: 47px;
+  display: flex;
+}
+
+.people__arrow {
+  width: 12px;
+  height: auto;
+  display: block;
+  margin-left: 10px;
+}
+
+.people__img__wrapper {
+  display: flex;
+}
+
+.people__img {
+  width: 40px;
+  height: 40px;
+  display: block;
+  border-radius: 50%;
+}

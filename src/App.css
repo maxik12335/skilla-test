@@ -1,38 +1,53 @@
+@font-face {
+  font-family: 'SF-Pro-Display';
+  src: local('SF-Pro-Display'),
+    url('assets/fonts/SF-Pro-Display-Regular.otf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'SF-Pro-Display-Medium';
+  src: local('SF-Pro-Display-Medium'),
+    url('assets/fonts/SF-Pro-Display-Medium.otf') format('truetype');
+  font-weight: 500;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button,
+button:focus {
+  border: none;
+  outline: none;
+}
+
+button {
+  font-family: "SF-Pro-Display";
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-family: "SF-Pro-Display";
 }
 
-.App-link {
-  color: #61dafb;
+.container {
+  width: 1440px;
+  margin: 0 auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app__right {
+  width: 100%;
+  /* убирает тень от Header */
+  overflow: hidden;
 }

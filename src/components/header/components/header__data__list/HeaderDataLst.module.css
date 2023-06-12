@@ -1,0 +1,28 @@
+.header__data__list {
+  display: flex;
+  justify-content: flex-start;
+  /* margin-right: 197px; */
+  margin-right: 150px;
+}
+
+.header__data__list__item:not(:last-child) {
+  margin-right: 56px;
+}
+
+.header__data__list__item__description {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 7px;
+}
+
+.header__data__list__item:nth-child(1) span {
+  color: #00A775;
+}
+
+.header__data__list__item:nth-child(2) span {
+  color: #FFB800;
+}
+
+.header__data__list__item:nth-child(3) span {
+  color: #EA1A4F;
+}
