@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import classes from "./Navigation.module.css"
 import { getListNavData } from "./utils/getNav";
 
@@ -10,7 +10,6 @@ const Navigation = () => {
       return item.id === id ? {...item, active: true}: {...item, active: false}
     })
 
-    console.log(mapArr)
     setNav(mapArr)
   }
 

@@ -8,7 +8,7 @@ import { getEndDateYYYYMMDD, getStartDateYYYYMMDD } from "../../../../utils/date
 const PostsList = ({startDate, stateFilterCallType}) => {
   const [posts, setPosts] = useState([])
   const [filterPostsCallType, setFilterPostsCallType] = useState([])
-  console.log(stateFilterCallType)
+
   useEffect(() => {
     fetch(`https://api.skilla.ru/mango/getList?date_start=${getStartDateYYYYMMDD(startDate.y, startDate.m, startDate.n, startDate.d)}&date_end=${getEndDateYYYYMMDD()}`, {
       method: "POST",
