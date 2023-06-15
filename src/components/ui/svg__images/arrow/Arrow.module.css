@@ -1,0 +1,38 @@
+.arrow__people {
+  width: 12px;
+  height: auto;
+  display: block;
+  margin-left: 10px;
+  fill: #ADBFDF;
+  cursor: pointer;
+}
+
+.arrow__time__ranges__img {
+  display: block;
+  height: 10px;
+  width: auto;
+  fill: #ADBFDF;
+  cursor: pointer;
+}
+
+.arrow__time__ranges__before {
+  transform: rotate(90deg);
+}
+
+.arrow__time__ranges__after {
+  transform: rotate(-90deg);
+}
+
+.arrow__filter {
+  width: 10px;
+  height: auto;
+  display: block;
+  fill: #ADBFDF;
+  cursor: pointer;
+}
+
+.arrow__people:hover,
+.arrow__time__ranges__img:hover,
+.arrow__filter:hover {
+  fill: #002CFB;
+}

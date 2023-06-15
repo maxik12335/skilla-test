@@ -36,9 +36,13 @@ button {
   font-family: "SF-Pro-Display";
 }
 
+html, body {
+  user-select:none;
+}
+
 .App {
   display: flex;
-  font-family: "SF-Pro-Display";
+  font-family: "SF-Pro-Display";  
 }
 
 .container {

@@ -1,0 +1,46 @@
+.time__ranges {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.time__ranges span {
+  margin: 0 22px;
+  display: flex;
+  font-weight: 400;
+  font-size: 14px;
+  color: #005FF8;
+  cursor: pointer;
+}
+
+.time__ranges span:hover > svg{
+  fill: #002CFB;
+}
+
+.time__ranges span svg {
+  width: 16px;
+  height: 18px;
+  display: block;
+  margin-right: 8px;
+  fill: #ADBFDF;
+}
+
+.time__ranges__img {
+  display: block;
+  height: 10px;
+  width: auto;
+  fill: #ADBFDF;
+  cursor: pointer;
+}
+
+.time__ranges__img:hover {
+  fill: #002CFB;
+}
+
+.time__ranges__before {
+  transform: rotate(90deg);
+}
+
+.time__ranges__after {
+  transform: rotate(-90deg);
+}

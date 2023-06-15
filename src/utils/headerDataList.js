@@ -17,3 +17,13 @@ export const getLengthConversionOrderIsValue = (dataList) => {
   
   return listItemsIsValue.length
 }
+
+export const getLengthNewCalls = (dataList) => {
+  let listItemsNewCalls = dataList.filter(item => {
+    if(item.results[0] && item.results[0].type === "is_new") {
+      return item.results[0].type
+    }
+  })
+  
+  return listItemsNewCalls.length
+}

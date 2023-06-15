@@ -1,0 +1,24 @@
+.input__wrapper {
+  position: relative;
+}
+
+.input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #122945;
+  padding: 10px 10px 10px 45px;
+  font-family: "SF-Pro-Display";
+  line-height: 20px;
+  width: 482px;
+}
+
+.input:focus {
+  border: none;
+  outline: none;
+  border: 1px solid #002CFB;
+  border-radius: 48px;
+}

@@ -1,0 +1,23 @@
+.filters {
+  display: flex;
+  align-items: center;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+  position: relative;
+}
+
+.filter:not(:last-child) {
+  margin-right: 36px;
+}
+
+.filter span {
+  color: #5E7793;
+  font-weight: 400;
+  font-size: 14px;
+  margin-right: 8px;
+}

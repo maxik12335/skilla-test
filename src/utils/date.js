@@ -57,7 +57,31 @@ export const getDateMonth = () => {
   return nameMonth
 }
 
-export const getDateYYYYMMDD = () => {
+export const getToDayDateYYYYMMDD = () => {
+  const year = new Date().getFullYear()
+  const month = () => {
+    return new Date().getMonth() > 9 ? String(new Date().getMonth()) : "0" + String(new Date().getMonth())
+  }
+  const day = () => {
+    return new Date().getDate() > 11 ? String(new Date().getDate()) : "0" + String(new Date().getDate())
+  }
+
+  return `${year}-${month()}-${day()}`  
+}
+
+export const getStartDateYYYYMMDD = (rangeDay=0, rangeMonth=0, rangeYear=0) => {
+  const year = new Date().getFullYear() - rangeDay
+  const month = () => {
+    return new Date().getMonth() > 9 ? String(new Date().getMonth() - rangeMonth) : "0" + String(new Date().getMonth() - rangeMonth)
+  }
+  const day = () => {
+    return new Date().getDate() > 11 ? String(new Date().getDate() - rangeYear) : "0" + String(new Date().getDate() - rangeYear)
+  }
+
+  return `${year}-${month()}-${day()}`  
+}
+
+export const getEndDateYYYYMMDD = () => {
   const year = new Date().getFullYear()
   const month = () => {
     return new Date().getMonth() > 9 ? String(new Date().getMonth()) : "0" + String(new Date().getMonth())
